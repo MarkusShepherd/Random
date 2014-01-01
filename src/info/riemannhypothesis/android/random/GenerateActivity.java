@@ -43,8 +43,9 @@ public class GenerateActivity extends Activity {
 				+ lowerBound;
 
 		TextView textView = new TextView(this);
-		textView.setTextSize(40);
-		textView.setText("Lower bound: " + lowerBound + "; upper bound: "
+		textView.setTextSize(30);
+		textView.setPadding(8, 8, 8, 8);
+		textView.setText("Lower bound: " + lowerBound + "\nUpper bound: "
 				+ (upperBound - 1) + "\n\nRandom: " + random);
 
 		setContentView(textView);
