@@ -1,8 +1,9 @@
-package info.schepke.random;
+package info.riemannhypothesis.android.random;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import info.riemannhypothesis.android.random.R;
 
 public class MainActivity extends Activity {
 
